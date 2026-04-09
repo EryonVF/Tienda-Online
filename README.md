@@ -23,3 +23,11 @@ set FLASK_APP=app.py
 4. Ejecuta la aplicación con el comando `flask run.`.
 
 5. Abre tu navegador y visita `http://127.0.0.1:5000` para acceder a la página.
+
+## Cómo convertirlo en .exe
+Abrimos CMD como administrador y nos dirigimos a la carpeta donde se encuentra el proyecto
+Instalar :
+pip install pyinstaller 
+
+Ejecutar en cmd en la carpeta SRC:
+pyinstaller --onefile --add-data "static;static" --add-data "templates;templates" run.py
