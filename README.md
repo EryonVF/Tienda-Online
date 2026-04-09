@@ -29,5 +29,5 @@ Abrimos CMD como administrador y nos dirigimos a la carpeta donde se encuentra e
 Instalar:.
 `pip install pyinstaller` .
 
-Ejecutar en cmd en la carpeta SRC:.
+Ejecutar en cmd en la carpeta SRC(Esta funcion sirve para crear el exe incluyendo static y templates en caso de incluir fotos):
 pyinstaller --onefile --add-data "static;static" --add-data "templates;templates" run.py
